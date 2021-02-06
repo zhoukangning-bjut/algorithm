@@ -1,3 +1,4 @@
+
 public class SelectionSort {
     public static void main(String[] args) {
         int[] data = new int[]{5, 4, 3, 2, 1};
@@ -15,13 +16,10 @@ public class SelectionSort {
                 if (data[j] > data[j + 1])
                     min = j + 1;
             }
-            change(data, i, min);
+            Utils.change(data, i, min);
         }
     }
 
-    public static void change(int[] data, int a, int b) {
-        int temp = data[a];
-        data[a] = data[b];
-        data[b] = temp;
-    }
+
+
 }
