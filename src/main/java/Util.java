@@ -1,4 +1,4 @@
-public class Utils {
+public class Util {
 
     public static void change(int[] data, int a, int b) {
         int temp = data[a];
