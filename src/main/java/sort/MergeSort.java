@@ -1,3 +1,5 @@
+package sort;
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] array = new int[]{5, 4, 3, 2, 1};

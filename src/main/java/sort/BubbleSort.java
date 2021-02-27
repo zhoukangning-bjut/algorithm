@@ -1,4 +1,4 @@
-//最佳情况：T(n) = O(n)   最差情况：T(n) = O(n2)   平均情况：T(n) = O(n2)
+package sort;//最佳情况：T(n) = O(n)   最差情况：T(n) = O(n2)   平均情况：T(n) = O(n2)
 
 public class BubbleSort {
     public static void main(String[] args) {

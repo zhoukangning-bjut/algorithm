@@ -1,3 +1,5 @@
+package sort;
+
 public class Util {
 
     public static void change(int[] data, int a, int b) {
