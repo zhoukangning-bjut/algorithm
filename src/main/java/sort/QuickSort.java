@@ -3,8 +3,8 @@ package sort;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int data[] = new int[]{5, 4, 3, 2, 1};
-        quickSort(data, 0, 4);
+        int data[] = new int[]{4, 5, 6, 1};
+        quickSort(data, 0, data.length-1);
         for (int i = 0; i < data.length; i++) {
             System.out.println(data[i]);
         }
