@@ -21,7 +21,7 @@ public class ReverseList {
         node2.next = node3;
         ListNode result = reverseList(node1);
 
-        while (result != null){
+        while (result != null) {
             System.out.println(result.val);
             result = result.next;
         }
@@ -32,7 +32,7 @@ public class ReverseList {
      */
     public static ListNode reverseList(ListNode head) {
         ListNode preNode = null, currentNode = head, nextNode = null;
-        while(currentNode != null){
+        while (currentNode != null) {
             nextNode = currentNode.next;
             currentNode.next = preNode;
             preNode = currentNode;
@@ -40,21 +40,23 @@ public class ReverseList {
         }
         return preNode;
     }
+
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}

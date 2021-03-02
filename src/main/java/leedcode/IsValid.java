@@ -48,6 +48,7 @@ public class IsValid {
                 if (stack.isEmpty() || stack.pop() != '[')
                     return false;
             }
+
         }
         if (stack.isEmpty())
             return true;
