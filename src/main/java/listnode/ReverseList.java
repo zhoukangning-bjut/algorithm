@@ -1,4 +1,4 @@
-package leedcode;
+package listnode;
 
 /**
  * 反转一个单链表。

@@ -1,6 +1,4 @@
-package leedcode;
-
-import sort.Util;
+package listnode;
 
 public class SwapPairs {
     /**

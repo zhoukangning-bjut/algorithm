@@ -5,6 +5,7 @@ public class MergeSort {
         int[] array = new int[]{5, 4, 3, 2, 1};
         int[] temp = new int[array.length];
         mergeSort(array, 0, array.length - 1, temp);
+
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
@@ -33,10 +34,9 @@ public class MergeSort {
             temp[index++] = data[left++];
         while (right <= end)
             temp[index++] = data[right++];
-        for (int i = 0; i < index; i ++)
+        for (int i = 0; i < index; i++)
             data[i + start] = temp[i];
 
     }
-
 
 }

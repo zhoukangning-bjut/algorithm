@@ -1,4 +1,4 @@
-package leedcode;
+package listnode;
 
 public class DeleteNode {
     /**

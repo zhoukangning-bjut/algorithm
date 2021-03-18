@@ -1,4 +1,4 @@
-package leedcode;
+package listnode;
 
 import java.util.List;
 

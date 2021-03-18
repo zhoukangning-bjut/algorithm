@@ -1,5 +1,7 @@
 package sort;
 
+import utils.Util;
+
 public class HeapSort {
 
 
@@ -11,7 +13,7 @@ public class HeapSort {
         }
         for (int i = data.length - 1; i >= 0; i--) {
             Util.change(data, i, 0);
-            adjustHeap(data,0, i);
+            adjustHeap(data, 0, i);
         }
 
         for (int i : data) {
