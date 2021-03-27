@@ -1,6 +1,4 @@
-package listnode;
-
-import java.util.List;
+package leedcode.listnode;
 
 public class GetIntersectionNode {
     /**

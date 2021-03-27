@@ -1,4 +1,4 @@
-package listnode;
+package leedcode.listnode;
 
 import java.util.HashMap;
 

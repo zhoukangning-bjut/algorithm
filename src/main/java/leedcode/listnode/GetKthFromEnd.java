@@ -1,4 +1,4 @@
-package listnode;
+package leedcode.listnode;
 
 public class GetKthFromEnd {
 

@@ -5,8 +5,8 @@ import utils.Util;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int data[] = new int[]{4, 5, 6, 1};
-        quickSort(data, 0, data.length-1);
+        int data[] = new int[]{5, 4, 3, 2, 1};
+        quickSort(data, 0, data.length - 1);
         for (int i = 0; i < data.length; i++) {
             System.out.println(data[i]);
         }
@@ -29,5 +29,4 @@ public class QuickSort {
         quickSort(data, start, left - 1);
         quickSort(data, left + 1, end);
     }
-
 }
